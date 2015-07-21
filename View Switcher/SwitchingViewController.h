@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SwitchingViewController.h
 //  View Switcher
 //
 //  Created by Student on 7/21/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SwitchingViewController : UIViewController
 
 
 @end
