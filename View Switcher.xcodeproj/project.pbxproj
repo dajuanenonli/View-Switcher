@@ -14,6 +14,8 @@
 		DEC90EA51B5EB8DF00C9E16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC90EA41B5EB8DF00C9E16A /* Images.xcassets */; };
 		DEC90EA81B5EB8DF00C9E16A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC90EA61B5EB8DF00C9E16A /* LaunchScreen.xib */; };
 		DEC90EB41B5EB8DF00C9E16A /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC90EB31B5EB8DF00C9E16A /* View_SwitcherTests.m */; };
+		DEC90EBF1B5EBA2500C9E16A /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC90EBE1B5EBA2500C9E16A /* BlueViewController.m */; };
+		DEC90EC21B5EBA4200C9E16A /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC90EC11B5EBA4200C9E16A /* YellowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		DEC90EAD1B5EB8DF00C9E16A /* View SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC90EB21B5EB8DF00C9E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC90EB31B5EB8DF00C9E16A /* View_SwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherTests.m; sourceTree = "<group>"; };
+		DEC90EBD1B5EBA2500C9E16A /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		DEC90EBE1B5EBA2500C9E16A /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		DEC90EC01B5EBA4200C9E16A /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		DEC90EC11B5EBA4200C9E16A /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				DEC90EA41B5EB8DF00C9E16A /* Images.xcassets */,
 				DEC90EA61B5EB8DF00C9E16A /* LaunchScreen.xib */,
 				DEC90E971B5EB8DF00C9E16A /* Supporting Files */,
+				DEC90EBD1B5EBA2500C9E16A /* BlueViewController.h */,
+				DEC90EBE1B5EBA2500C9E16A /* BlueViewController.m */,
+				DEC90EC01B5EBA4200C9E16A /* YellowViewController.h */,
+				DEC90EC11B5EBA4200C9E16A /* YellowViewController.m */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC90EA01B5EB8DF00C9E16A /* SwitchingViewController.m in Sources */,
+				DEC90EC21B5EBA4200C9E16A /* YellowViewController.m in Sources */,
 				DEC90E9D1B5EB8DF00C9E16A /* AppDelegate.m in Sources */,
+				DEC90EBF1B5EBA2500C9E16A /* BlueViewController.m in Sources */,
 				DEC90E9A1B5EB8DF00C9E16A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
